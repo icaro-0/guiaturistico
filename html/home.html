@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paises</title>
+</head>
+<body>
+    <header>
+        Guia turístico
+    </header>
+    <nav> 
+    <hr>
+    <a href="home.html">Início</a>
+    <a href="brasil.html">Brasil</a>
+    <a href="mexico.html">México</a>
+    <a href="argentina.html">Argentina</a>
+    <hr>
+    </nav>
+    <section>
+        <h1>Sinopse:</h1>
+        <p> 
+        Aproveite a seguir no nosso guia turístico, um conteúdo didático sobre
+        todos os 3 principais paises da América Latina
+        </p>
+        <img src="../img/al.jpg" alt="Ámerica Latina">
+    </section>
+
+    <article>
+
+    <table border="1">
+    <tr>
+        <th colspan="3">População de países</th>
+    </tr>
+    <tr>
+        <th>País</th>
+        <th>Capital</th>
+        <th>População (aprox.)</th>
+    </tr>
+    <tr>
+        <td>Brasil</td>
+        <td>Brasília</td>
+        <td>203 milhões</td>
+    </tr>
+<tr>
+        <td>México</td>
+        <td>Cidade do México</td>
+        <td>133 milhões</td>
+    </tr>
+
+    <tr>
+        <td>Argentina</td>
+        <td>Buenos Aires</td>
+        <td>46,7 milhões</td>
+    </tr>
+
+</table>
+
+</article>
+
+<br><br>
+
+<form action="#" method="post" enctype="multipart/form-data">
+
+        <label for="nome">Nome:</label>
+        <input
+            type="text"
+            id="nome"
+            name="nome"
+            placeholder="Digite seu nome"
+            required
+        >
+
+        <br><br>
+
+        <label for="email">E-mail:</label>
+        <input
+            type="email"
+            id="email"
+            name="email"
+            placeholder="exemplo@email.com"
+            required
+        >
+
+        <br><br>
+
+        <label for="data">Data de nascimento:</label>
+        <input
+            type="date"
+            id="data"
+            name="data"
+            required
+        >
+
+        <br><br>
+
+        <label for="cidade">Cidade:</label>
+        <input
+            list="cidades"
+            id="cidade"
+            name="cidade"
+            placeholder="Digite ou escolha sua cidade"
+            required
+        >
+
+        <datalist id="cidades">
+            <option value="São Paulo">
+            <option value="Rio de Janeiro">
+            <option value="Belo Horizonte">
+            <option value="Brasília">
+            <option value="Salvador">
+            <option value="Guarulhos">
+            <option value="Campinas">
+        </datalist>
+
+        <br><br>
+
+        <label for="experiencia">Nível de experiência:</label>
+        <input
+            type="range"
+            id="experiencia"
+            name="experiencia"
+            min="0"
+            max="10"
+            value="5"
+            required
+        >
+
+        <br><br>
+
+        <label for="arquivo">Enviar arquivo:</label>
+        <input
+            type="file"
+            id="arquivo"
+            name="arquivo"
+            accept=".pdf,.doc,.docx"
+            required
+        >
+
+        <br><br>
+
+        <label for="mensagem">Mensagem:</label><br>
+        <textarea
+            id="mensagem"
+            name="mensagem"
+            placeholder="Digite sua mensagem"
+            rows="5"
+            cols="40"
+        ></textarea>
+
+        <br><br>
+
+        <input
+            type="checkbox"
+            id="termos"
+            name="termos"
+            required
+        >
+
+        <label for="termos">
+            Aceito os termos e condições
+        </label>
+
+        <br><br>
+
+        <button type="submit">Enviar</button>
+        <button type="reset">Limpar</button>
+
+    </form>
+
+    <br>
+
+    <audio controls>
+    <source src="../audio/Cat Meow Sound Effect ~ Attract Cats, Sounds Cats Love - SoundEffectsFactory.mp3" type="audio">
+    </audio>
+
+    <br>
+
+    <video src="../video/América Latina - Brasil Escola - Brasil Escola Oficial (720p, h264).mp4"></video>
+
+    <br>
+
+    <!-- Tive problema com vídeos e audios -->
+
+    <time datetime="29/09/2026"> 
+
+        <blockquote> Semantica é o uso de tags HTML que dão significado claro ao conteúdo de uma página, em vez de definir apenas a sua aparência visual</blockquote>
+        <br>
+
+<footer>
+    <a href="home.html">Voltar ao Início</a>
+</footer>
+</body>
+</html>
